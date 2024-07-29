@@ -1,0 +1,111 @@
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 0 15px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile {
+  background-color: rgb(31 31 31);
+  border-radius: 10px;
+  width: 350px;
+  padding: 35px;
+}
+
+.profile .image {
+  text-align: center;
+}
+
+.profile img {
+  width: 85px;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 20px 0 10px 0;
+}
+
+.title .address {
+  color: rgb(171 222 43);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+}
+
+.title .job {
+  color: rgb(255 255 255 / 80%);
+  font-size: 13px;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  background-color: rgb(51 51 51);
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+ul .git:hover {
+  background-color: rgb(171 222 43);
+}
+
+ul .front:hover {
+  background-color: rgb(123 76 236);
+}
+
+ul .linked:hover {
+  background-color: #0a66c2;
+}
+
+ul .twitter:hover {
+  background-color: #1da1f2;
+}
+
+ul .instagram:hover {
+  transition: 0.3s;
+  background-color: #c13584;
+}
+
+ul li:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  padding: 12px 0;
+}
+
+ul li:hover a {
+  color: rgb(51 51 51);
+  font-weight: bold;
+}
