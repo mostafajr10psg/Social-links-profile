@@ -37,10 +37,10 @@ main img {
   text-align: center;
 }
 
-.title h3 {
+.title h1 {
   color: white;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 27px;
   margin: 20px 0 10px 0;
 }
 
